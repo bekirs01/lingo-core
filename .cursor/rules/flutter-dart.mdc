@@ -1,0 +1,35 @@
+---
+description: Flutter and Dart coding standards for Lingo Core
+globs: "**/*.dart"
+alwaysApply: false
+---
+
+# Flutter and Dart
+
+Follow current Flutter/Dart practice and null safety. Do not use `dynamic`, `!` as a shortcut, or nullable types without a reason.
+
+## Const and immutability
+
+Prefer `const` constructors, `const` widgets, and immutable data when values are compile-time constant.
+
+```dart
+// BAD
+return Container(child: Text(AppConstants.appDisplayName));
+
+// GOOD
+return const Text(AppConstants.appDisplayName);
+```
+
+## Widgets
+
+- Split giant screen files into small reusable widgets.
+- One widget, one visual or interaction job.
+- Keep `build` methods short. Extract private widgets or files in the same feature.
+- Use `StatelessWidget` unless local mutable state is required.
+
+## Dart style
+
+- Explicit types on public APIs; rely on inference for obvious locals.
+- Handle null with `?`, `??`, early returns, or pattern matching — not silent failures.
+- Use `final` for locals that do not change.
+- Avoid `print` in production paths; if logging is needed, use a named, English debug message.

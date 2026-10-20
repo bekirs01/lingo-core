@@ -1,0 +1,49 @@
+{
+  "id": "lingo_core",
+  "displayName": "Lingo Core",
+  "targetLanguageName": "Sample",
+  "targetLanguageCode": "und",
+  "nativeLanguageName": "Sample",
+  "textDirection": "ltr",
+  "writingSystem": "alphabet",
+  "primaryAccentColor": "#C46A3C",
+  "contentPackPath": "assets/content",
+  "defaultTranslationLanguage": "en",
+  "speechLocale": "en",
+  "speech": {
+    "locale": "en-US",
+    "preferredVoiceName": "Nicky",
+    "preferredVoiceNames": [
+      "Samantha (Enhanced)",
+      "Samantha",
+      "Ava",
+      "Allison",
+      "Zoe",
+      "Susan"
+    ],
+    "preferredGender": "female",
+    "rate": 0.47,
+    "pitch": 1.0
+  },
+  "supportedTranslationLanguages": [
+    "en",
+    "tr",
+    "es",
+    "ar",
+    "fr",
+    "de",
+    "ru",
+    "pt",
+    "it",
+    "ja",
+    "ko",
+    "zh",
+    "hi",
+    "id",
+    "fa"
+  ],
+  "featureFlags": {
+    "alphabet": true,
+    "audio": true
+  }
+}

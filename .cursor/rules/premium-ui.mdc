@@ -1,0 +1,31 @@
+---
+description: iOS-first premium UI, motion, haptics, and accessibility
+globs: lib/**/*.dart
+alwaysApply: false
+---
+
+# Premium UI
+
+UI quality is mandatory. Screens must feel like a polished iOS product while remaining correct on Android.
+
+## Platform
+
+- Design iOS-first (typography, spacing, navigation, gestures).
+- Preserve Android compatibility: no iOS-only APIs without an Android fallback.
+- Use Flutter platform adaptation, not copied Cupertino widgets everywhere by default.
+
+## Motion and depth
+
+Future UI may use polished motion, depth, and subtle 3D. These must be:
+
+- Interruptible and reduced when `MediaQuery.disableAnimations` / accessible motion settings are on
+- Cheap on the GPU (transform, opacity, limited blur)
+- Never used as the only way to convey meaning
+
+## Sound and haptics
+
+Sound effects and haptic feedback are allowed for learning moments. They must be optional, not block input, and degrade safely if the platform cannot play them.
+
+## Accessibility
+
+Respect text scaling, contrast, semantics, and touch targets. Do not ship decorative motion that fights TalkBack or VoiceOver.

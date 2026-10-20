@@ -1,0 +1,290 @@
+{
+  "units": [
+    {
+      "id": "letter.a",
+      "glyph": "A",
+      "pronunciation": "ay",
+      "romanization": "/eɪ/",
+      "example": "apple",
+      "sortOrder": 0,
+      "quizEnabled": true,
+      "imageAssetId": "alphabet.apple",
+      "speechText": "A"
+    },
+    {
+      "id": "letter.b",
+      "glyph": "B",
+      "pronunciation": "bee",
+      "romanization": "/biː/",
+      "example": "book",
+      "sortOrder": 1,
+      "quizEnabled": true,
+      "imageAssetId": "alphabet.book",
+      "speechText": "B"
+    },
+    {
+      "id": "letter.c",
+      "glyph": "C",
+      "pronunciation": "see",
+      "romanization": "/siː/",
+      "example": "cat",
+      "sortOrder": 2,
+      "quizEnabled": true,
+      "imageAssetId": "alphabet.cat",
+      "speechText": "C"
+    },
+    {
+      "id": "letter.d",
+      "glyph": "D",
+      "pronunciation": "dee",
+      "romanization": "/diː/",
+      "example": "dog",
+      "sortOrder": 3,
+      "quizEnabled": true,
+      "imageAssetId": "alphabet.dog",
+      "speechText": "D"
+    },
+    {
+      "id": "letter.e",
+      "glyph": "E",
+      "pronunciation": "ee",
+      "romanization": "/iː/",
+      "example": "egg",
+      "sortOrder": 4,
+      "quizEnabled": true,
+      "imageAssetId": "alphabet.egg",
+      "speechText": "E"
+    },
+    {
+      "id": "letter.f",
+      "glyph": "F",
+      "pronunciation": "ef",
+      "romanization": "/ɛf/",
+      "example": "fish",
+      "sortOrder": 5,
+      "quizEnabled": true,
+      "imageAssetId": "alphabet.fish",
+      "speechText": "F"
+    },
+    {
+      "id": "letter.g",
+      "glyph": "G",
+      "pronunciation": "jee",
+      "romanization": "/dʒiː/",
+      "example": "garden",
+      "sortOrder": 6,
+      "quizEnabled": true,
+      "imageAssetId": "alphabet.garden",
+      "speechText": "G"
+    },
+    {
+      "id": "letter.h",
+      "glyph": "H",
+      "pronunciation": "aitch",
+      "romanization": "/eɪtʃ/",
+      "example": "house",
+      "sortOrder": 7,
+      "quizEnabled": true,
+      "imageAssetId": "alphabet.house",
+      "speechText": "H"
+    },
+    {
+      "id": "letter.i",
+      "glyph": "I",
+      "pronunciation": "eye",
+      "romanization": "/aɪ/",
+      "example": "ice",
+      "sortOrder": 8,
+      "quizEnabled": true,
+      "imageAssetId": "alphabet.ice",
+      "speechText": "I"
+    },
+    {
+      "id": "letter.j",
+      "glyph": "J",
+      "pronunciation": "jay",
+      "romanization": "/dʒeɪ/",
+      "example": "juice",
+      "sortOrder": 9,
+      "quizEnabled": true,
+      "imageAssetId": "alphabet.juice",
+      "speechText": "J"
+    },
+    {
+      "id": "letter.k",
+      "glyph": "K",
+      "pronunciation": "kay",
+      "romanization": "/keɪ/",
+      "example": "key",
+      "sortOrder": 10,
+      "quizEnabled": true,
+      "imageAssetId": "alphabet.key",
+      "speechText": "K"
+    },
+    {
+      "id": "letter.l",
+      "glyph": "L",
+      "pronunciation": "el",
+      "romanization": "/ɛl/",
+      "example": "lamp",
+      "sortOrder": 11,
+      "quizEnabled": true,
+      "imageAssetId": "alphabet.lamp",
+      "speechText": "L"
+    },
+    {
+      "id": "letter.m",
+      "glyph": "M",
+      "pronunciation": "em",
+      "romanization": "/ɛm/",
+      "example": "moon",
+      "sortOrder": 12,
+      "quizEnabled": true,
+      "imageAssetId": "alphabet.moon",
+      "speechText": "M"
+    },
+    {
+      "id": "letter.n",
+      "glyph": "N",
+      "pronunciation": "en",
+      "romanization": "/ɛn/",
+      "example": "night",
+      "sortOrder": 13,
+      "quizEnabled": true,
+      "imageAssetId": "alphabet.night",
+      "speechText": "N"
+    },
+    {
+      "id": "letter.o",
+      "glyph": "O",
+      "pronunciation": "oh",
+      "romanization": "/oʊ/",
+      "example": "orange",
+      "sortOrder": 14,
+      "quizEnabled": true,
+      "imageAssetId": "alphabet.orange",
+      "speechText": "O"
+    },
+    {
+      "id": "letter.p",
+      "glyph": "P",
+      "pronunciation": "pee",
+      "romanization": "/piː/",
+      "example": "paper",
+      "sortOrder": 15,
+      "quizEnabled": true,
+      "imageAssetId": "alphabet.paper",
+      "speechText": "P"
+    },
+    {
+      "id": "letter.q",
+      "glyph": "Q",
+      "pronunciation": "cue",
+      "romanization": "/kjuː/",
+      "example": "queen",
+      "sortOrder": 16,
+      "quizEnabled": true,
+      "imageAssetId": "alphabet.queen",
+      "speechText": "Q"
+    },
+    {
+      "id": "letter.r",
+      "glyph": "R",
+      "pronunciation": "ar",
+      "romanization": "/ɑːr/",
+      "example": "rain",
+      "sortOrder": 17,
+      "quizEnabled": true,
+      "imageAssetId": "alphabet.rain",
+      "speechText": "R"
+    },
+    {
+      "id": "letter.s",
+      "glyph": "S",
+      "pronunciation": "ess",
+      "romanization": "/ɛs/",
+      "example": "sun",
+      "sortOrder": 18,
+      "quizEnabled": true,
+      "imageAssetId": "alphabet.sun",
+      "speechText": "S"
+    },
+    {
+      "id": "letter.t",
+      "glyph": "T",
+      "pronunciation": "tee",
+      "romanization": "/tiː/",
+      "example": "table",
+      "sortOrder": 19,
+      "quizEnabled": true,
+      "imageAssetId": "alphabet.table",
+      "speechText": "T"
+    },
+    {
+      "id": "letter.u",
+      "glyph": "U",
+      "pronunciation": "you",
+      "romanization": "/juː/",
+      "example": "umbrella",
+      "sortOrder": 20,
+      "quizEnabled": true,
+      "imageAssetId": "alphabet.umbrella",
+      "speechText": "U"
+    },
+    {
+      "id": "letter.v",
+      "glyph": "V",
+      "pronunciation": "vee",
+      "romanization": "/viː/",
+      "example": "violin",
+      "sortOrder": 21,
+      "quizEnabled": true,
+      "imageAssetId": "alphabet.violin",
+      "speechText": "V"
+    },
+    {
+      "id": "letter.w",
+      "glyph": "W",
+      "pronunciation": "double-u",
+      "romanization": "/ˈdʌbəl juː/",
+      "example": "water",
+      "sortOrder": 22,
+      "quizEnabled": true,
+      "imageAssetId": "alphabet.water",
+      "speechText": "W"
+    },
+    {
+      "id": "letter.x",
+      "glyph": "X",
+      "pronunciation": "ex",
+      "romanization": "/ɛks/",
+      "example": "box",
+      "sortOrder": 23,
+      "quizEnabled": true,
+      "imageAssetId": "alphabet.box",
+      "speechText": "X"
+    },
+    {
+      "id": "letter.y",
+      "glyph": "Y",
+      "pronunciation": "wy",
+      "romanization": "/waɪ/",
+      "example": "yellow",
+      "sortOrder": 24,
+      "quizEnabled": true,
+      "imageAssetId": "alphabet.yellow",
+      "speechText": "Y"
+    },
+    {
+      "id": "letter.z",
+      "glyph": "Z",
+      "pronunciation": "zee",
+      "romanization": "/ziː/",
+      "example": "zoo",
+      "sortOrder": 25,
+      "quizEnabled": true,
+      "imageAssetId": "alphabet.zoo",
+      "speechText": "Z"
+    }
+  ]
+}

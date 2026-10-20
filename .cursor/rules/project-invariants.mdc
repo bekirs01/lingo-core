@@ -1,0 +1,30 @@
+---
+description: Permanent product invariants for Lingo Core
+alwaysApply: true
+---
+
+# Project invariants
+
+Lingo Core is an offline-first Flutter app family. Keep every change inside these constraints.
+
+## Language
+
+All code, comments, documentation, identifiers, debug messages, and base UI copy must be English.
+
+## Forbidden unless explicitly requested
+
+Do not add backend, authentication, advertising, analytics, Firebase, Supabase, or external APIs for core functionality.
+
+## Dependencies and architecture
+
+- Prefer Flutter and Dart SDK APIs. Do not add third-party packages unless they are necessary and justified.
+- Never silently change architecture or add a major dependency. Explain why first.
+- Do not invent extra layers, folders, or abstractions beyond the existing `lib/` layout.
+
+## Done means clean
+
+Before considering a task complete:
+
+1. Run `dart format .`
+2. Run `flutter analyze`
+3. Fix every warning or error introduced by the change

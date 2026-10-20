@@ -1,0 +1,39 @@
+---
+description: Offline-first modular architecture for a multi-language learning engine
+globs: lib/**/*.dart
+alwaysApply: false
+---
+
+# Architecture
+
+Keep the engine reusable across target languages. Do not hardcode language-specific behavior into shared screens or widgets.
+
+## Layout
+
+- `lib/app/`: application shell only
+- `lib/core/`: shared constants, theme, and utilities with no feature logic
+- `lib/data/`: local models, local sources, repository implementations
+- `lib/domain/`: entities and repository contracts
+- `lib/features/`: feature modules; each feature owns its UI, state, and feature-specific logic
+
+## Offline-first
+
+All core learning flows must work with bundled or locally stored data. Do not require network for core functionality.
+
+## Data-driven content
+
+Learning content (lessons, items, copy variants, language packs) must come from data, not from widgets.
+
+```dart
+// BAD
+Text(targetLanguage == 'es' ? 'Hola' : 'Hello');
+
+// GOOD
+Text(item.prompt);
+```
+
+## No duplicated business logic
+
+Put rules in domain/data layers or a single shared function. Widgets may format and display results, not reimplement scoring, progress, or content selection.
+
+Language-specific extras (scripts, input methods, phonetics) stay behind feature or content-module boundaries.
